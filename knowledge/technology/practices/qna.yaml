@@ -1,7 +1,5 @@
 version: 3
 domain: Software Development
-document_outline: |
-  This document contains a collection of questions and answers about discovering customer needs and developing Software using Open Practice Library practices.
 seed_examples:
   - context: |
       # What is it? The Business Priorities Exercise is a collaborative approach to getting stakeholders to agree on what the top priorities are for…
@@ -14,12 +12,12 @@ seed_examples:
       - Inspire and motivate, create belief
       - Foster stakeholder buy-in
       ## Start by asking the group to pick 3-4 top business priorities that they want to achieve from the project in question
-      - Run through each of the priorities with the team and provide an example (note: don’t lead the witness!). Have an open discussion on what the participants understand under the term and start to frame it more clearly.
+      - Run through each of the priorities with the team and provide an example (note: don't lead the witness!). Have an open discussion on what the participants understand under the term and start to frame it more clearly.
       - Provide a couple of empty spaces to add new Priorities in case the team is missing something
       - Once a shared understanding of the terms is provided, use Dot Marking. Ask them to vote for the top 3 then workup a mind map for them identifying what they actually mean
       - Once the team have settled on their top 3, take each priority in turn and have a more detailed discussion about it. Use different coloured markers to denote the positive and challenges they currently have and the future hopes in the area being discussed.
       - Similar to Impact Mapping but more ad-hoc and unstructured.
-      - Should focus the team on “Why” they are doing things and perceived benefits.
+      - Should focus the team on "Why" they are doing things and perceived benefits.
       As a next step, try out the Priority Slider to understand which challenges and hopes are most important for the participants.
       ### Some common examples of Business Priorities
       Innovation, Culture Change, Customer Satisfaction, Improve Product Quality, Efficiency, Operational Excellence, Revenue, Business Growth, Brand Perception, Business Development, People, Competitive Advantage.
@@ -32,7 +30,7 @@ seed_examples:
       - question: |
           Why is the Business Priorities Exercise effective in fostering stakeholder buy-in and motivation, and how does it contribute to a shared understanding across teams?
         answer: |
-          The Business Priorities Exercise fosters stakeholder buy-in and motivation by encouraging collaborative dialogue and shared decision-making around strategic goals. Rather than imposing predefined solutions, it begins with stakeholders collectively identifying 3–4 business priorities, allowing each voice to be heard. Through open conversations about what these priorities mean, participants uncover current pain points and positive capabilities that may have remained hidden without cross-functional input. The process creates transparency, aligns expectations, and reveals common aspirations. Visual tools like dot marking and mind mapping make abstract goals tangible and understandable, while color-coded markers surface both challenges and hopes, grounding the conversation in real experiences. This visibility into each other’s perspectives builds empathy and trust among participants. By centering discussions on the purpose behind the work—not just the tasks themselves—the exercise inspires belief in the shared mission. These elements combine to strengthen ownership and ensure that all team members are invested in achieving outcomes that matter.
+          The Business Priorities Exercise fosters stakeholder buy-in and motivation by encouraging collaborative dialogue and shared decision-making around strategic goals. Rather than imposing predefined solutions, it begins with stakeholders collectively identifying 3–4 business priorities, allowing each voice to be heard. Through open conversations about what these priorities mean, participants uncover current pain points and positive capabilities that may have remained hidden without cross-functional input. The process creates transparency, aligns expectations, and reveals common aspirations. Visual tools like dot marking and mind mapping make abstract goals tangible and understandable, while color-coded markers surface both challenges and hopes, grounding the conversation in real experiences. This visibility into each other's perspectives builds empathy and trust among participants. By centering discussions on the purpose behind the work—not just the tasks themselves—the exercise inspires belief in the shared mission. These elements combine to strengthen ownership and ensure that all team members are invested in achieving outcomes that matter.
       - question: |
           How is the Business Priorities Exercise different from structured methods like Impact Mapping, and what advantages does its ad-hoc and unstructured nature provide?
         answer: |
@@ -101,24 +99,78 @@ seed_examples:
         answer: |
           To successfully facilitate a User Story Mapping session, particularly for teams new to the approach, several key elements are required. The session should be led by a facilitator who can guide participants through the process and ensure focused collaboration. Core team roles involved include the Product Owner, user experience designers, business analysts, developers, and testers. This cross-functional participation ensures a comprehensive view of the product and user needs. In terms of materials, the session should use a drawing paper roll as the base canvas, along with three colors of wide-format sticky notes and two colors of small square sticky notes to represent different types of work or categories. Markers are also needed for labeling and annotations. The total recommended time is around four hours, though the work can be spread across multiple 90-minute sessions, even on different days, to accommodate team schedules and avoid fatigue. These elements together support a visual, collaborative, and outcome-driven session that aligns backlog planning with real user workflows and release goals.
   - context: |
-    questions_and_answers:
-      - question: |
-        answer: |
-      - question: |
-        answer: |
-      - question: |
-        answer: |
-  - context: |
-    questions_and_answers:
-      - question: |
-        answer: |
-      - question: |
-        answer: |
-      - question: |
-        answer: |
+      # Minimum Viable Product (MVP)
+      What is it? Minimal Viable Product (MVP) refers the the minimum amount that can be produced and still obtain value. This value does NOT have…
 
+      Minimal Viable Product (MVP) refers the the minimum amount that can be produced and still obtain value.
+
+      This value does NOT have to come in the form of something released to the public. This can come in closed user testing, in which the value we gain is the feedback we receive. To that end many in the Agile community advocate for the term Earliest Testable Product (ETP), rather than MVP.
+
+      Simple answer -  It unlocks value earlier
+
+      Building a product takes time, and using traditional method means the customer won't get any value until the end of the big bang release. Using MVP means the customer starts seeing the value from the product far faster
+
+      In addition as we gain feedback throughout this helps us insure that what we're building is also the right thing. Perhaps based on that feedback we may find that actually we only need a simple solution making it both cheaper and taking less time? Or perhaps we find that we can build something that the customer never imagined they needed but could help them immensely?
+
+      ## Make sure your planned MVP aligns with your business objectives
+
+      The first step in developing your MVP, before weighing which features to build, is to make sure the product will align with your team's or your company's strategic goals.
+
+      What are those goals? Are you working toward a revenue number in the coming six months? Do you have limited resources?  These questions might affect whether now is even the time to start developing a new MVP. Also, ask what purpose this minimum viable product will serve. Will it attract new users in a market adjacent to the market for your existing products? If that is one of your current business objectives, then this MVP plan might be strategically viable. But if your company's current priority is to continue focusing on your core markets, then you might need to shelve this idea and focus instead, perhaps, on an MVP designed to offer new functionality for your existing customers.
+    questions_and_answers:
+      - question: |
+          What is the definition of a Minimum Viable Product (MVP), and how does it differ from a traditional product release in terms of delivering value?
+        answer: |
+          A Minimum Viable Product (MVP) is defined as the smallest version of a product that can still deliver meaningful value. Unlike traditional product releases that typically follow a "big bang" approach—where customers only see the final product at the end of a lengthy development cycle—an MVP is intended to deliver value much earlier. This early value may not necessarily come from a public release; it can stem from internal testing or closed user feedback sessions. The goal is to unlock insights, validate assumptions, and begin learning as soon as possible. This makes the development process more adaptive and customer-centric. MVPs allow teams to respond to feedback quickly and adjust the product direction, thereby ensuring that they are building something aligned with real user needs. In contrast, traditional methods delay such learning until the very end, which increases the risk of misalignment between what's built and what users actually want.
+      - question: |
+          Why is it important to align an MVP with business objectives before selecting features to build, and what are the potential risks of ignoring this step?
+        answer: |
+          Aligning an MVP with business objectives before selecting features is crucial because it ensures that the product being developed contributes meaningfully to the company's strategic goals. For example, if a company is focused on expanding into adjacent markets, then building an MVP that targets a new user segment makes sense. However, if the current objective is to deepen engagement in core markets, then a different MVP—perhaps one that enhances existing product functionality—would be more appropriate. Skipping this alignment step can lead to wasted resources and a product that does not support key business outcomes. The team might invest in developing a solution that is either mistimed or irrelevant, leading to poor adoption and missed revenue opportunities. Furthermore, misalignment can also affect team morale and stakeholder support if the MVP fails to deliver expected results. Therefore, asking strategic questions upfront—such as resource availability, market focus, and near-term revenue goals—helps determine whether and how to proceed with an MVP.
+      - question: |
+          How does the concept of an MVP compare to an Earliest Testable Product (ETP), and what implications does this distinction have for how teams define and evaluate success?
+        answer: |
+          While MVP and Earliest Testable Product (ETP) are often used interchangeably, the distinction between them lies in how value is perceived and how success is measured. An MVP traditionally focuses on delivering a minimal yet usable product to end users, with the aim of generating value early—typically through market validation, revenue, or user adoption. In contrast, the concept of ETP emphasizes learning over delivery, prioritizing early feedback even if the product is not yet suitable for broad release. In this sense, an ETP may be tested in closed environments or limited trials, where the primary value comes from insights that guide future iterations. This shift in mindset means that teams adopting the ETP approach may define success not by features launched or users acquired, but by the depth of understanding gained from testing. Recognizing this difference encourages teams to experiment more freely and iterate faster, while still staying focused on building something truly aligned with user needs and strategic intent.
+  - context: |
+      # Behavior-Driven Development
+      ## Excerpt
+      Practices that empower teams to collaborate and deliver iteratively
+
+      Behavior-Driven Development (BDD) is a software development process focused on a test-first, agile testing practice that provides built-in quality by defining tests (and potentially automating them) specifying system behavior.
+
+      This practice is focused on the business value using patterns such as  Given/When/Then  to capture the behavior of the system from a conversation between business and technical people.
+
+      This is a way for product teams to work that closes the gap between business and technical people by:
+
+      - Creating a shared understanding of requirements using an ubiquitous language
+      - Helping guide development, decreasing rework, and increasing flow
+      - Creating business-facing scenarios that attempt to describe the behavior of a story, feature, or capability from a user's perspective
+
+      The BDD process requires to specify the tests of any software in terms of the desired behavior of the unit. The desired behavior consists of the requirements set by the business that has business value for whatever software unit under construction, this is referred to as an "outside-in" activity.
+
+      This process is based on conversations between business and technical people, sometimes identified as discovery workshops. Example Mapping, one of the examples of discovery workshops, is based on the idea that multiple examples of specific cases convey information better than a single bad abstraction of a concept.
+
+      Finally, the technical people will use these tests as part of the acceptance criteria of the building activities, or could automate them to guide the development life cycle.
+
+      This process could be summarized as:
+
+      1. Set up the scenario or desired behavior of the system
+      2. Document the different tests during the discovery workshops
+      3. Implement the tests or include them as part of the acceptance criteria of the development life cycle
+    questions_and_answers:
+      - question: |
+          What are the main steps involved in the Behavior-Driven Development (BDD) process, and how do they contribute to building software that aligns with business expectations?
+        answer: |
+          The Behavior-Driven Development (BDD) process involves three main steps that ensure the software being built aligns with business expectations. First, teams collaboratively set up scenarios that describe the desired system behavior from the user's perspective. This involves using structured language patterns like "Given/When/Then" to clearly articulate the system's response to specific conditions. Second, during discovery workshops such as Example Mapping, the team documents a variety of test cases—multiple real-world examples help clarify requirements more effectively than vague abstractions. These workshops bring business and technical people together to create a shared understanding of the feature's behavior. Finally, the development team implements the agreed-upon tests, either by automating them or using them as formal acceptance criteria during development. This test-first approach integrates quality early in the process, reducing rework and enhancing flow. Each step ensures continuous alignment with business needs by treating tests as a representation of expected outcomes, thus guiding development through ongoing collaboration.
+      - question: |
+          How does Behavior-Driven Development (BDD) help bridge the gap between business and technical teams, and why is this beneficial for software delivery?
+        answer: |
+          Behavior-Driven Development (BDD) helps bridge the gap between business and technical teams by establishing a common language and structured process that focuses on business value. Through discovery workshops and the use of the "Given/When/Then" syntax, both groups engage in conversations that clarify the desired system behavior. This shared dialogue ensures that requirements are not just handed off, but instead collaboratively defined and validated. By framing software behavior from the user's point of view, BDD fosters mutual understanding and reduces misinterpretation of business needs. As a result, it prevents rework and accelerates delivery because developers are guided by clear, agreed-upon scenarios. The collaborative nature of BDD also improves confidence in test coverage and feature completeness, as acceptance criteria are baked into the development process itself. Ultimately, BDD strengthens alignment between stakeholder expectations and technical implementation, ensuring the software being built delivers the intended value in a predictable and transparent way.
+      - question: |
+          How is Behavior-Driven Development (BDD) different from traditional testing practices, and what advantages does its "outside-in" approach provide?
+        answer: |
+          Behavior-Driven Development (BDD) differs from traditional testing practices primarily in its focus and timing. Traditional testing often comes after development and is based on verifying technical correctness or functional completeness from the inside out. In contrast, BDD takes an "outside-in" approach, meaning it starts with defining the system's behavior from the user's or business perspective before any code is written. Tests in BDD are developed during early-stage discussions between business and technical stakeholders and are designed to reflect real-world scenarios. This proactive approach integrates testing into the development process rather than treating it as a separate phase. One key advantage is that it minimizes misunderstandings about requirements because tests are written using a shared, ubiquitous language. It also reduces rework, since the development is guided by well-understood and collaboratively defined behavior. This leads to faster feedback, clearer acceptance criteria, and ultimately, software that more reliably meets user expectations and business goals.
 document_outline: |
-  <A brief summary of the document.>
+  This document contains a collection of questions and answers about discovering customer needs and developing Software using Open Practice Library practices.
 document:
   repo: https://github.com/tsailiming/etx-superchamps.git
   commit: d6aa87d0ad68f4e3d2fb8ba0b9a68885645e1bcf
