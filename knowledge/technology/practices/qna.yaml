@@ -39,6 +39,9 @@ seed_examples:
           Some common examples of Business Priorities are: Innovation, Culture Change, Customer Satisfaction, Improve Product Quality, Efficiency, Operational Excellence, Revenue, Business Growth, Brand Perception, Business Development, People, Competitive Advantage.
 
   - context: |
+      What is it? A burndown chart is a visualisation of work left to do within a specified time period. The remaining work (or backlog) is often…
+      A burndown chart is a visualisation of work left to do within a specified time period. The remaining work (or backlog) is often on the vertical axis, with time along the horizontal.
+      Teams often use burndown charts to track progress within fixed time periods (for example, Sprint Burndown charts). They can also be used to visualise progress for longer time periods and milestones (for example, Release Burndown charts).
     questions_and_answers:
       - question: |
           What is a a burndown chart?
