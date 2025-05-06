@@ -26,24 +26,17 @@ seed_examples:
 
     questions_and_answers:
       - question: |
-          What is a Business Priorities Exercise?
+          What are the main steps involved in conducting a Business Priorities Exercise, and how do these steps help teams avoid jumping straight into feature discussions?
         answer: |
-          Business Priorities Exercise is a collaborative approach to getting stakeholders to agree on 10,000ft what the top priorities are to drive business value for whatever they are trying to achieve. The purpose of the Business Priorities Exercise is to align stakeholders on the top priorities for the project.
-          It helps teams to first align and identify from 10,000ft what they should be focusing on to drive business value, rather than jumping directly into features which might not bind back to the actual value stream.
-          While discussing the priorities, current challenges but also positives can come to light which may not have been visible to everyone.
+          The Business Priorities Exercise follows a structured yet collaborative process that begins with asking stakeholders to select 3–4 key business priorities they aim to achieve from the project. Once these are identified, the team discusses each priority openly to clarify understanding and ensure alignment, using examples without steering the conversation. Empty slots are left for adding overlooked priorities. Then, participants vote using dot marking to select their top three, which are visualized through a mind map to unpack what they actually mean. Each chosen priority is explored in detail with colored markers to differentiate existing challenges, current positives, and future hopes. This structured discussion shifts the team's focus to the "why" behind their goals, preventing premature commitment to features that may not deliver real business value. The Priority Slider is then used to gauge which challenges or hopes matter most. This holistic approach ensures that features discussed later directly align with strategic outcomes, rather than being based on assumptions or isolated needs.
       - question: |
-          What are the benefits of doing a Business Priorities Exercise?
+          Why is the Business Priorities Exercise effective in fostering stakeholder buy-in and motivation, and how does it contribute to a shared understanding across teams?
         answer: |
-          The benefit of doing a Business Priorities Exercise is to align stakeholders on the top priorities for the project.
-          It helps teams to first align and identify from 10,000ft what they should be focusing on to drive business value, rather than jumping directly into features which might not bind back to the actual value stream.
-          While discussing the priorities, current challenges but also positives can come to light which may not have been visible to everyone.
-          It inspires belief in a common vision, and fosters buy-in by involving diverse perspectives early.
-          It is a flexible, ad-hoc alternative to structured tools like Impact Mapping, and serves as a strong foundation for more focused planning sessions.
-          It keeps teams aligned on purpose and perceived value—not just delivery.
+          The Business Priorities Exercise fosters stakeholder buy-in and motivation by encouraging collaborative dialogue and shared decision-making around strategic goals. Rather than imposing predefined solutions, it begins with stakeholders collectively identifying 3–4 business priorities, allowing each voice to be heard. Through open conversations about what these priorities mean, participants uncover current pain points and positive capabilities that may have remained hidden without cross-functional input. The process creates transparency, aligns expectations, and reveals common aspirations. Visual tools like dot marking and mind mapping make abstract goals tangible and understandable, while color-coded markers surface both challenges and hopes, grounding the conversation in real experiences. This visibility into each other’s perspectives builds empathy and trust among participants. By centering discussions on the purpose behind the work—not just the tasks themselves—the exercise inspires belief in the shared mission. These elements combine to strengthen ownership and ensure that all team members are invested in achieving outcomes that matter.
       - question: |
-          What are some common examples of the Business Priorities?
+          How is the Business Priorities Exercise different from structured methods like Impact Mapping, and what advantages does its ad-hoc and unstructured nature provide?
         answer: |
-          Some common examples of Business Priorities are: Innovation, Culture Change, Customer Satisfaction, Improve Product Quality, Efficiency, Operational Excellence, Revenue, Business Growth, Brand Perception, Business Development, People, Competitive Advantage.
+          The Business Priorities Exercise differs from structured frameworks like Impact Mapping in that it intentionally follows a more ad-hoc and unstructured approach. While Impact Mapping typically adheres to a predefined model linking deliverables to goals via measurable impacts, the Business Priorities Exercise focuses on flexible, collaborative discovery without a rigid format. Its strength lies in facilitating open discussions among stakeholders to surface both challenges and aspirations tied to high-level business objectives. Rather than charting outcomes methodically from the outset, it encourages participants to explore their understanding of priorities through storytelling, voting, and visual mapping. This unstructured format allows for more spontaneous insights, making it easier for teams to identify value-aligned priorities even when the problem space is ambiguous or evolving. By avoiding prescriptive pathways, the exercise enables broader engagement, emotional buy-in, and the emergence of shared understanding—especially in early-stage or cross-functional settings where clarity is still forming and different perspectives must converge.
   - context: |
       What is it? A burndown chart is a visualisation of work left to do within a specified time period. The remaining work (or backlog) is often…
       A burndown chart is a visualisation of work left to do within a specified time period. The remaining work (or backlog) is often on the vertical axis, with time along the horizontal.
@@ -55,7 +48,7 @@ seed_examples:
           A burndown chart is a visualisation of work left to do within a specified time period. The remaining work (or backlog) is often on the vertical axis, with time along the horizontal.
           Teams often use burndown charts to track progress within fixed time periods (for example, Sprint Burndown charts). They can also be used to visualise progress for longer time periods and milestones (for example, Release Burndown charts).
           Burndown charts provide real data about a team's velocity and provides a mechanism as to whether the team's current velocity and trajectory will result in it meeting its committed goal(s).
-      - question: | 
+      - question: |
           What facilitation Materials are Needed?
         answer: |
           - A large piece of flip-chart paper - ideally with gridded lines.
@@ -65,21 +58,59 @@ seed_examples:
           when to use burn down charts?
         answer: |
           Teams often use burndown charts to track progress within fixed time periods (for example, Sprint Burndown charts). They can also be used to visualise progress for longer time periods and milestones (for example, Release Burndown charts).
+
   - context: |
+      # User Story Mapping and Value Slicing
+      What is it? User Story Mapping is an evolution of the traditional Agile backlog, made popular by Jeff Patton in 20081. It's an effective…
+      User Story Mapping is an evolution of the traditional Agile backlog, made popular by Jeff Patton in 2008. It's an effective practice for creating lightweight release plans that can drive standard Agile delivery practices. At the end of user story mapping, you should have:
+      - A backlog of scope items (captured as stories or simply feature titles) the team believes can be delivered in the planning window. This means some items will be placed out of scope
+      - The backlog "sliced" into ~3 iterations, such that it forms the outline of plan
+      - Enough detail in the first iteration of the plan to get started with the work
+      - No one likes estimating work effort, but it's an important step in many environments. User Story Mapping presents an approach to estimation that many teams find much more tolerable than practices like planning poker or t-shirt sizing
+      - Many projects have a natural progression of work from beginning, middle to end. This progression is often lost in a traditional flat backlog. User Story Mapping captures this information with a lightweight mechanism to plan out more than one iteration (i.e. an Agile release plan)
+      - User Story Mapping presents backlog items in the context of the overall business process so you don't lose sight of "the big picture", a common pitfall in Scrum projects
+      ### Who do you need?
+      - Facilitator (if the team is new to the approach)
+      - Product Owner
+      - User Experience Design
+      - Analysts
+      - Developers
+      - Testers
+      ### Suggested Time
+      - ~4 Hours not including breaks
+      - Facilitate in small sessions @ around ~90 minutes each
+      - Session can be done on different days
+      ### Facilitation Materials Needed
+      - Drawing Paper roll
+      - 3 different colors of wide format sticky notes like the
+      - 2 different colors of small square sticky notes like the
+      - Markers
+      ### How does it fit?
+      - Typically done in the Options part of the Open Practice Library
 
     questions_and_answers:
-      - question:
-        answer: |
       - question: |
+          What are the key outputs of a User Story Mapping session, and how do these help teams prepare for Agile delivery?
         answer: |
+          A User Story Mapping session produces several key outputs that directly support Agile delivery. First, it results in a structured backlog of scope items, organized either as detailed user stories or simple feature titles. These items reflect the team's understanding of what can be realistically delivered within the current planning window, with some items explicitly placed out of scope. The second major output is a "sliced" version of this backlog, typically broken into around three iterations. This forms the basis of a lightweight release plan. Third, the first iteration is detailed enough to allow the team to begin working immediately after the session. These deliverables help shift teams from abstract prioritization to tangible planning by clarifying sequencing, scope, and dependencies. Unlike flat backlogs that often lose the narrative flow, User Story Mapping preserves the beginning-to-end structure of the product experience. This approach ensures that the team maintains alignment with business processes and customer journeys, helping avoid common pitfalls such as losing sight of the big picture or overcommitting without clarity.
       - question: |
+          How does User Story Mapping offer a more effective approach to backlog planning and estimation compared to traditional methods like flat backlogs or planning poker?
         answer: |
+          User Story Mapping provides a more effective and engaging alternative to traditional backlog planning and estimation methods by organizing work in a narrative flow that mirrors the customer or user journey. Unlike flat backlogs, which often fragment tasks and obscure the natural progression of work, story maps preserve the sequence from beginning to end, offering valuable context that helps teams plan iteratively. Additionally, it allows teams to group backlog items into slices—often three iterations—enabling lightweight release planning. When it comes to estimation, User Story Mapping avoids the often tedious and arbitrary feeling associated with planning poker or t-shirt sizing. Instead, it helps teams visualize scope and effort through collaborative discussions about relative complexity and sequencing, making the estimation process feel more natural and less forced. This narrative and visual orientation promotes shared understanding across roles and supports better prioritization, allowing teams to confidently identify what they can commit to, while leaving lower-priority items out of scope when necessary.
+      - question: |
+          What roles, materials, and time commitment are required to successfully facilitate a User Story Mapping session, especially for teams unfamiliar with the approach?
+        answer: |
+          To successfully facilitate a User Story Mapping session, particularly for teams new to the approach, several key elements are required. The session should be led by a facilitator who can guide participants through the process and ensure focused collaboration. Core team roles involved include the Product Owner, user experience designers, business analysts, developers, and testers. This cross-functional participation ensures a comprehensive view of the product and user needs. In terms of materials, the session should use a drawing paper roll as the base canvas, along with three colors of wide-format sticky notes and two colors of small square sticky notes to represent different types of work or categories. Markers are also needed for labeling and annotations. The total recommended time is around four hours, though the work can be spread across multiple 90-minute sessions, even on different days, to accommodate team schedules and avoid fatigue. These elements together support a visual, collaborative, and outcome-driven session that aligns backlog planning with real user workflows and release goals.
+
   - context: |
     questions_and_answers:
       - question: |
         answer: |
       - question: |
         answer: |
+      - question: |
+        answer: |
+
   - context: |
     questions_and_answers:
       - question: |
@@ -88,6 +119,7 @@ seed_examples:
         answer: |
       - question: |
         answer: |
+
 document_outline: |
   <A brief summary of the document.>
 document:
