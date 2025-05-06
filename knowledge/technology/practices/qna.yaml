@@ -58,7 +58,6 @@ seed_examples:
           when to use burn down charts?
         answer: |
           Teams often use burndown charts to track progress within fixed time periods (for example, Sprint Burndown charts). They can also be used to visualise progress for longer time periods and milestones (for example, Release Burndown charts).
-
   - context: |
       # User Story Mapping and Value Slicing
       What is it? User Story Mapping is an evolution of the traditional Agile backlog, made popular by Jeff Patton in 20081. It's an effective…
@@ -101,7 +100,6 @@ seed_examples:
           What roles, materials, and time commitment are required to successfully facilitate a User Story Mapping session, especially for teams unfamiliar with the approach?
         answer: |
           To successfully facilitate a User Story Mapping session, particularly for teams new to the approach, several key elements are required. The session should be led by a facilitator who can guide participants through the process and ensure focused collaboration. Core team roles involved include the Product Owner, user experience designers, business analysts, developers, and testers. This cross-functional participation ensures a comprehensive view of the product and user needs. In terms of materials, the session should use a drawing paper roll as the base canvas, along with three colors of wide-format sticky notes and two colors of small square sticky notes to represent different types of work or categories. Markers are also needed for labeling and annotations. The total recommended time is around four hours, though the work can be spread across multiple 90-minute sessions, even on different days, to accommodate team schedules and avoid fatigue. These elements together support a visual, collaborative, and outcome-driven session that aligns backlog planning with real user workflows and release goals.
-
   - context: |
     questions_and_answers:
       - question: |
@@ -110,7 +108,6 @@ seed_examples:
         answer: |
       - question: |
         answer: |
-
   - context: |
     questions_and_answers:
       - question: |
@@ -123,11 +120,7 @@ seed_examples:
 document_outline: |
   <A brief summary of the document.>
 document:
-  repo: https://github.com/<username>/<repo>.git
-  commit: <full commit SHA>
+  repo: https://github.com/tsailiming/etx-superchamps.git
+  commit: d6aa87d0ad68f4e3d2fb8ba0b9a68885645e1bcf
   patterns:
-    - <FILENAME>.md
-    - <FILENAME>.pdf
-    - "*.md"
-    - "*.pdf"
-    - "<directory>/*.md"
+    - "files/*.md"
