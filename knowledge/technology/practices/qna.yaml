@@ -4,7 +4,26 @@ document_outline: |
   This document contains a collection of questions and answers about the developing Software using Open Practice Library practices.
 seed_examples:
   - context: |
-        <Context from the document associated with this set of sample q&a pairs.>
+      # What is it? The Business Priorities Exercise is a collaborative approach to getting stakeholders to agree on what the top priorities are for…
+      The Business Priorities Exercise is a collaborative approach to getting stakeholders to agree on 10,000ft what the top priorities are to drive business value for whatever they are trying to achieve.
+      It helps teams to first align and identify from 10,000ft what they should be focusing on to drive business value, rather than jumping directly into features which might not bind back to the actual value stream.
+      While discussing the priorities, current challenges but also positives can come to light which may not have been visible to everyone.
+      - Bring multiple perspectives together
+      - Create a shared understanding of pains &amp; gains
+      - Brainstorm and envision the dream for the future
+      - Inspire and motivate, create belief
+      - Foster stakeholder buy-in
+      ## Start by asking the group to pick 3-4 top business priorities that they want to achieve from the project in question
+      - Run through each of the priorities with the team and provide an example (note: don’t lead the witness!). Have an open discussion on what the participants understand under the term and start to frame it more clearly.
+      - Provide a couple of empty spaces to add new Priorities in case the team is missing something
+      - Once a shared understanding of the terms is provided, use Dot Marking. Ask them to vote for the top 3 then workup a mind map for them identifying what they actually mean
+      - Once the team have settled on their top 3, take each priority in turn and have a more detailed discussion about it. Use different coloured markers to denote the positive and challenges they currently have and the future hopes in the area being discussed.
+      - Similar to Impact Mapping but more ad-hoc and unstructured.
+      - Should focus the team on “Why” they are doing things and perceived benefits.
+      As a next step, try out the Priority Slider to understand which challenges and hopes are most important for the participants.
+      ### Some common examples of Business Priorities
+      Innovation, Culture Change, Customer Satisfaction, Improve Product Quality, Efficiency, Operational Excellence, Revenue, Business Growth, Brand Perception, Business Development, People, Competitive Advantage.
+
     questions_and_answers:
       - question: |
            <A question used for synthetic data generation. Based upon the previous context.>
