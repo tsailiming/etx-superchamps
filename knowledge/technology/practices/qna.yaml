@@ -56,7 +56,9 @@ seed_examples:
           - Flip chart pens
           - Long ruler
       - question: |
+          when to use burn down charts?
         answer: |
+          Teams often use burndown charts to track progress within fixed time periods (for example, Sprint Burndown charts). They can also be used to visualise progress for longer time periods and milestones (for example, Release Burndown charts).
   - context: |
     questions_and_answers:
       - question:
