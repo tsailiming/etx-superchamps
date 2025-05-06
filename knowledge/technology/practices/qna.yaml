@@ -45,7 +45,7 @@ seed_examples:
           Burndown charts provide real data about a team's velocity and provides a mechanism as to whether the team's current velocity and trajectory will result in it meeting its committed goal(s).
   - context: |
     questions_and_answers:
-       - question: |
+      - question: |
         answer: |
       - question: |
         answer: |
