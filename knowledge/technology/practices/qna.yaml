@@ -35,8 +35,11 @@ seed_examples:
         answer: |
   - context: |
     questions_and_answers:
-      - question: |
-        answer: |
+      - question: | What is a a burndown chart?
+        answer: | 
+          A burndown chart is a visualisation of work left to do within a specified time period. The remaining work (or backlog) is often on the vertical axis, with time along the horizontal.
+          Teams often use burndown charts to track progress within fixed time periods (for example, Sprint Burndown charts). They can also be used to visualise progress for longer time periods and milestones (for example, Release Burndown charts).
+          Burndown charts provide real data about a team's velocity and provides a mechanism as to whether the team's current velocity and trajectory will result in it meeting its committed goal(s).
       - question: |
         answer: |
       - question: |
