@@ -1,18 +1,9 @@
 
-title:: Agile Health Check
-date:: [[2025-05-06]]
-created-time:: 6 May 2025 at 2:37:48 PM
-tags:: 
-source:: https://openpracticelibrary.com/practice/user-persona/
-author:: [[]]
-location:: Singapore, SG
----
+# Agile Health Check
 
-- ## Excerpt
-  > What is it? A team evaluation of how to get better based on agile principles. Ask the team to describe how they would see things working in…
+## Excerpt
 
-  - ---
-
+What is it? A team evaluation of how to get better based on agile principles. Ask the team to describe how they would see things working in…
 
 A team evaluation of how to get better based on agile principles.
 
