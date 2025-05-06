@@ -26,18 +26,24 @@ seed_examples:
 
     questions_and_answers:
       - question: |
-          What is the Business Priorities Exercise?
+          What is a Business Priorities Exercise?
         answer: |
           Business Priorities Exercise is a collaborative approach to getting stakeholders to agree on 10,000ft what the top priorities are to drive business value for whatever they are trying to achieve. The purpose of the Business Priorities Exercise is to align stakeholders on the top priorities for the project.
+          It helps teams to first align and identify from 10,000ft what they should be focusing on to drive business value, rather than jumping directly into features which might not bind back to the actual value stream.
+          While discussing the priorities, current challenges but also positives can come to light which may not have been visible to everyone.
       - question: |
-          What is the benefit of the Business Priorities Exercise?
+          What are the benefits of doing a Business Priorities Exercise?
         answer: |
-          The benefit of the Business Priorities Exercise is to align stakeholders on the top priorities for the project.
+          The benefit of doing a Business Priorities Exercise is to align stakeholders on the top priorities for the project.
+          It helps teams to first align and identify from 10,000ft what they should be focusing on to drive business value, rather than jumping directly into features which might not bind back to the actual value stream.
+          While discussing the priorities, current challenges but also positives can come to light which may not have been visible to everyone.
+          It inspires belief in a common vision, and fosters buy-in by involving diverse perspectives early.
+          It is a flexible, ad-hoc alternative to structured tools like Impact Mapping, and serves as a strong foundation for more focused planning sessions.
+          It keeps teams aligned on purpose and perceived value—not just delivery.
       - question: |
-          What are some common examples of Business Priorities?
+          What are some common examples of the Business Priorities?
         answer: |
           Some common examples of Business Priorities are: Innovation, Culture Change, Customer Satisfaction, Improve Product Quality, Efficiency, Operational Excellence, Revenue, Business Growth, Brand Perception, Business Development, People, Competitive Advantage.
-
   - context: |
     questions_and_answers:
       - question: |
@@ -51,6 +57,7 @@ seed_examples:
       - question: |
         answer: |
   - context: |
+
     questions_and_answers:
       - question:
         answer: |
