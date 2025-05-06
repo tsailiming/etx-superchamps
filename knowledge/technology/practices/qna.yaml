@@ -1,7 +1,7 @@
 version: 3
 domain: Software Development
 document_outline: |
-  This document contains a collection of questions and answers about the developing Software using Open Practice Library practices.
+  This document contains a collection of questions and answers about discovering customer needs and developing Software using Open Practice Library practices.
 seed_examples:
   - context: |
       # What is it? The Business Priorities Exercise is a collaborative approach to getting stakeholders to agree on what the top priorities are for…
@@ -26,17 +26,22 @@ seed_examples:
 
     questions_and_answers:
       - question: |
-           <A question used for synthetic data generation. Based upon the previous context.>
+          What is the Business Priorities Exercise?
         answer: |
-           <The desired response for the question. Based upon the previous context.>
+          Business Priorities Exercise is a collaborative approach to getting stakeholders to agree on 10,000ft what the top priorities are to drive business value for whatever they are trying to achieve. The purpose of the Business Priorities Exercise is to align stakeholders on the top priorities for the project.
       - question: |
+          What is the benefit of the Business Priorities Exercise?
         answer: |
+          The benefit of the Business Priorities Exercise is to align stakeholders on the top priorities for the project.
       - question: |
+          What are some common examples of Business Priorities?
         answer: |
+          Some common examples of Business Priorities are: Innovation, Culture Change, Customer Satisfaction, Improve Product Quality, Efficiency, Operational Excellence, Revenue, Business Growth, Brand Perception, Business Development, People, Competitive Advantage.
   - context: |
     questions_and_answers:
-      - question: | What is a a burndown chart?
-        answer: | 
+      - question: |
+          What is a a burndown chart?
+        answer: |
           A burndown chart is a visualisation of work left to do within a specified time period. The remaining work (or backlog) is often on the vertical axis, with time along the horizontal.
           Teams often use burndown charts to track progress within fixed time periods (for example, Sprint Burndown charts). They can also be used to visualise progress for longer time periods and milestones (for example, Release Burndown charts).
           Burndown charts provide real data about a team's velocity and provides a mechanism as to whether the team's current velocity and trajectory will result in it meeting its committed goal(s).
