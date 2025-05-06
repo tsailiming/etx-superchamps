@@ -45,6 +45,9 @@ seed_examples:
         answer: |
           Some common examples of Business Priorities are: Innovation, Culture Change, Customer Satisfaction, Improve Product Quality, Efficiency, Operational Excellence, Revenue, Business Growth, Brand Perception, Business Development, People, Competitive Advantage.
   - context: |
+      What is it? A burndown chart is a visualisation of work left to do within a specified time period. The remaining work (or backlog) is often…
+      A burndown chart is a visualisation of work left to do within a specified time period. The remaining work (or backlog) is often on the vertical axis, with time along the horizontal.
+      Teams often use burndown charts to track progress within fixed time periods (for example, Sprint Burndown charts). They can also be used to visualise progress for longer time periods and milestones (for example, Release Burndown charts).
     questions_and_answers:
       - question: |
           What is a a burndown chart?
@@ -52,10 +55,16 @@ seed_examples:
           A burndown chart is a visualisation of work left to do within a specified time period. The remaining work (or backlog) is often on the vertical axis, with time along the horizontal.
           Teams often use burndown charts to track progress within fixed time periods (for example, Sprint Burndown charts). They can also be used to visualise progress for longer time periods and milestones (for example, Release Burndown charts).
           Burndown charts provide real data about a team's velocity and provides a mechanism as to whether the team's current velocity and trajectory will result in it meeting its committed goal(s).
-      - question: |
+      - question: | 
+          What facilitation Materials are Needed?
         answer: |
+          - A large piece of flip-chart paper - ideally with gridded lines.
+          - Flip chart pens
+          - Long ruler
       - question: |
+          when to use burn down charts?
         answer: |
+          Teams often use burndown charts to track progress within fixed time periods (for example, Sprint Burndown charts). They can also be used to visualise progress for longer time periods and milestones (for example, Release Burndown charts).
   - context: |
 
     questions_and_answers:
